@@ -18,7 +18,7 @@ var cb = function(err){
 console.log(process.env.DB_Connection);
 console.log('heloooooooo');
 mongoose.connect(
-    'mongodb+srv://spanwar:Panwar123@cluster0.if6bf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+    'mongodb+srv://mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
     cb
   );
 
